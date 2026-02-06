@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital Dinamica</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Biblioteca Digital Dinamica</h1>
+        </header>
+        <input type="user" id="username" placeholder="Nome de Usuário" />
+        <select>
+            <option value="Aluno">Aluno</option>
+            <option value="Professor">Professor</option>
+            <option value="Funcionário">Funcionário</option>
+        </select>
+    </main>
+    <main>
+        <header>
+            <h2>Livros Disponíveis</h2>
+        </header>
+        <select id="livroSelect">
+            <option value=0>Dom Casmurro</option>
+            <option value=1>1984</option>
+            <option value=2>O Pequeno Príncipe</option>
+            <option value=3>O Senhor dos Anéis</option>
+            <option value=4>Harry Potter</option>
+            <option value=5>O Alquimista</option>
+            <option value=6>A Menina que Roubava Livros</option>
+            <option value=7>O Código Da Vinci</option>
+            <option value=8>O Hobbit</option>
+            <option value=9>O Morro dos Ventos Uivantes</option>
+        </select>
+        <button onclick="pegarEmprestado()">Pegar Emprestado</button>
+    </main>
+</body>
+</html>
